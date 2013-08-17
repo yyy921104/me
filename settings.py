@@ -62,7 +62,7 @@ app.config["RUNTIME_ENV"] = RUNTIME_ENV
 ## Database
 ######################################
 if RUNTIME_ENV in ("bae",):
-    SAE_DATABASE = "qHWGMWtaVuVSNMEpprEk"
+    SAE_DATABASE = "MGGjhXxkQzbAkFwsEbqo"
 
     app.secret_key = const.ACCESS_KEY + const.SECRET_KEY
     app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://%s:%s@%s:%s/%s?charset=utf8' % (
@@ -92,8 +92,8 @@ if RUNTIME_ENV in ("bae", "local"):
 
 app.config["SiteTitle"] = "ME@deepgully"
 app.config["SiteSubTitle"] = ""
-app.config["OwnerEmail"] = "deepgully@gmail.com"
-app.config["DefaultPassword"] = "admin"
+app.config["OwnerEmail"] = "411161536@qq.com"
+app.config["DefaultPassword"] = "yyy921111"
 
 
 ######################################
@@ -136,7 +136,7 @@ if RUNTIME_ENV in ("bae",):
     BAE_BCS = bcs.BaeBCS(const.BCS_ADDR, const.ACCESS_KEY, const.SECRET_KEY)
 
     BCS_HOST = "http://bcs.duapp.com"
-    BUCKET_NAME = "deepgully"
+    BUCKET_NAME = "yyy921104"
     BSC_FOLDER = "/photos/"
 
 elif RUNTIME_ENV in ("local",):
